@@ -1,0 +1,33 @@
+.account {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 20px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 3;
+  font-size: 18px;
+  font-weight: 600;
+}
+.account i,
+.account__munu-item {
+  transition: 0.2s ease-in-out;
+  margin-bottom: 5px;
+}
+.account i:hover,
+.account__munu-item:hover {
+  color: white;
+}
+
+.account__menu {
+  margin: 3px 20px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  box-shadow: 1px 3px 10px 1px black;
+}
+.account__munu-item:last-child:hover {
+  color: red;
+}

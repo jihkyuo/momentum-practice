@@ -1,9 +1,11 @@
 @import "reset.css";
+@import "screen-ctrl.css";
 
 @import "login.css";
 @import "todo.css";
 @import "clock.css";
 @import "quote.css";
+@import "account.css";
 
 body {
   background-color: rgba(0, 0, 0, 0.3);

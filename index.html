@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="account hidden">
+      <i class="far fa-user-circle fa-2x front-content"></i>
+      <div class="hidden account__menu">
+        <div class="account__munu-item">Profile</div>
+        <div class="account__munu-item">Setting</div>
+        <div class="account__munu-item">Logout</div>
+      </div>
+    </div>
+
     <h1 class="front-content" id="clock">00:00:00</h1>
 
     <form class="login-form front-content">
@@ -17,6 +26,7 @@
         name=""
         id=""
         placeholder="Write your name"
+        required
       />
       <h1 class="greeting hidden"></h1>
     </form>
@@ -44,10 +54,20 @@
 
     <div class="front-content" id="quote"><span></span><span></span></div>
 
+    <div id="no-mobile">
+      <span>Your screen is too small ㅠㅠ</span>
+    </div>
+
     <script src="js/clock.js"></script>
     <script src="js/greeting.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/account.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
