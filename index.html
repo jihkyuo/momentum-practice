@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" />
+    <title>Flower Road</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1 class="front-content" id="clock">00:00:00</h1>
+
+    <form class="login-form front-content">
+      <input
+        class="login-form__input"
+        type="text"
+        name=""
+        id=""
+        placeholder="Write your name"
+      />
+      <h1 class="greeting hidden"></h1>
+    </form>
+
+    <div class="todo front-content">
+      <form class="todo-form">
+        <input
+          class="todo-form__input"
+          type="text"
+          placeholder="What do you want to do?"
+          required
+        />
+      </form>
+      <div class="todo__box">
+        <div class="todo__culumn">
+          <div class="todo__title">Todo</div>
+          <ul class="todo-form__list"></ul>
+        </div>
+        <div class="todo__culumn">
+          <div class="todo__title">Complite</div>
+          <ul class="todo-form__del-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="front-content" id="quote"><span></span><span></span></div>
+
+    <iframe
+      src="https://video.feelmaker.co.kr/231376/86"
+      width="640"
+      height="360"
+      frameborder="0"
+      allowfullscreen="allowfullscreen"
+    ></iframe>
+
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+  </body>
+</html>

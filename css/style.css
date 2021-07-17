@@ -1,0 +1,28 @@
+@import "reset.css";
+
+@import "login.css";
+@import "todo.css";
+@import "clock.css";
+@import "quote.css";
+
+body {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bgimg {
+  z-index: 1;
+  top: 0px;
+  position: absolute;
+}
+.front-content {
+  z-index: 2;
+  position: relative;
+}
+img {
+  width: 100vw;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
