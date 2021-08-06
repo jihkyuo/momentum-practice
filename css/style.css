@@ -9,6 +9,7 @@
 
 body {
   background-color: rgba(0, 0, 0, 0.3);
+  color: white;
 }
 
 .bgimg {
@@ -27,4 +28,8 @@ img {
 
 .hidden {
   display: none;
+}
+
+.weather {
+  margin: 10px;
 }
